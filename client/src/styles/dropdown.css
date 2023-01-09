@@ -1,0 +1,84 @@
+.dropdown-container {
+  position: fixed;
+  height: calc(100% - 96px);
+  width: 100%;
+  top: 96px;
+  display: flex;
+  justify-content: end;
+  z-index: 99;
+}
+
+.dropdown {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 104px;
+  right: 8px;
+  width: 380px;
+  background-color: var(--white);
+  box-shadow: 0px 0px 4px 0px var(--black50);
+  border-radius: 16px;
+}
+
+/* ---------- DROPDOWN HEADER ---------- */
+
+.dropdown-header {
+  width: 100%;
+  background: var(--gradient);
+  color: var(--white);
+  border-radius: 16px 16px 0 0;
+  padding: 32px 16px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.dropdown-header.header-up * {
+  position: relative;
+  bottom: 8px;
+}
+
+/* ---------- DROPDOWN BUTTONS ---------- */
+
+.dd-btn_container {
+  width: 80%;
+  padding: 16px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* DEFAULT BUTTONS */
+
+.dd-btn {
+  width: 100%;
+  padding: 16px;
+  margin: 4px 0;
+  background-color: var(--white);
+  border: 3px solid var(--black50);
+  border-radius: 16px;
+  color: var(--black50);
+  font-weight: bold;
+  letter-spacing: 1px;
+  fill: var(--black50);
+}
+.dd-btn:hover {
+  background-color: var(--white);
+  border: 3px solid var(--primary);
+  border-color: var(--gradient);
+  color: var(--primary);
+  fill: var(--primary);
+}
+
+/* ROW BUTTONS */
+
+.dd-btn_container.alt {
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.dd-btn.alt {
+  border: 0;
+}

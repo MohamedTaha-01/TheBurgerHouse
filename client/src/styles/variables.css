@@ -1,0 +1,68 @@
+:root {
+  /* colors */
+  --primary: #e6512b;
+  --primary-dark: #992a0f;
+  --gradient: linear-gradient(
+    45deg,
+    hsl(12deg 79% 54%) 0%,
+    hsl(12deg 73% 51%) 11%,
+    hsl(12deg 71% 49%) 22%,
+    hsl(12deg 72% 47%) 33%,
+    hsl(12deg 73% 44%) 44%,
+    hsl(12deg 75% 42%) 56%,
+    hsl(12deg 76% 40%) 67%,
+    hsl(12deg 78% 37%) 78%,
+    hsl(12deg 80% 35%) 89%,
+    hsl(12deg 82% 33%) 100%
+  );
+  --secondary: #2ce6a8;
+  --secondary-dark: #2ce6a8;
+  --white: #e3e3e3;
+  --black: #050404;
+  --black75: #434343;
+  --black50: #828181;
+  --black25: #c0c0c0;
+  --black10: #e5e5e5;
+  --black5: #f2f2f2;
+  --error: #dc3545;
+  --success: #28a745;
+  /* font sizes */
+  --fs-h1: 46px;
+  --fs-h2: 64px;
+  --fs-h3: 51px;
+  --fs-h4: 41px;
+  --fs-h5: 32px;
+  --fs-h6: 26px;
+  --fs-p: 21px;
+  --fs-sm: 16px;
+  --fs-xs: 13px;
+  /* font families Roboto/Mulish/Lato/inter */
+  --ff-1: "Pacifico";
+  --ff-2: "Inter";
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--ff-1);
+}
+h1 {
+  font-size: var(--fs-h1);
+}
+h2 {
+  font-size: var(--fs-h2);
+}
+h3 {
+  font-size: var(--fs-h3);
+  font-weight: 100;
+}
+h4 {
+  font-size: var(--fs-h4);
+}
+h5 {
+  font-size: var(--fs-h5);
+}
+h6 {
+  font-size: var(--fs-h6);
+}
