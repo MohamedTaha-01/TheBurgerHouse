@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import CartItem from "./CartItem";
 import "../../styles/shopping_cart.css";
 
-export default function ShoppingCart() {
+export default function ShoppingCartDropdown() {
   const [cart, setCart] = useState([
     {
       name: "Clásica",
