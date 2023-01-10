@@ -1,0 +1,25 @@
+.order-page {
+  width: 100%;
+  padding: 96px 0;
+}
+
+.order-hero {
+  width: 100%;
+  min-height: 500px;
+  height: auto;
+  background-image: url("../images/order.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary);
+}
+
+.order-container {
+  width: 100%;
+  margin: auto;
+}

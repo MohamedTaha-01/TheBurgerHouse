@@ -1,3 +1,6 @@
 /a.txt
 /carta.txt
 /The Burger House.txt
+/ignore
+/client/node_modules
+/server/node_modules
