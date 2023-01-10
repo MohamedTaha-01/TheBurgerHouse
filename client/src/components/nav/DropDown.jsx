@@ -1,4 +1,4 @@
-import "../../styles/dropdown.css";
+import "./dropdown.css";
 
 export default function DropDown({ toggleDropdown, ddHeader, children }) {
   return (

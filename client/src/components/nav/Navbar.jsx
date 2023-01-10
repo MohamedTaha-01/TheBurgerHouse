@@ -1,10 +1,9 @@
 import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
-import "../../styles/navbar.css";
-import "../../styles/options_dd.css";
 import DropDown from "./DropDown";
 import ShoppingCart from "../shopping_cart_dd/ShoppingCartDropdown";
 import OptionsDropdown from "../options_dd/OptionsDropdown";
+import "./navbar.css";
 
 export default function Navbar() {
   const [isCartOpen, setIsCartOpen] = useState(false);
