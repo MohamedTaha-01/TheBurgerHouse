@@ -2,6 +2,7 @@ require("dotenv").config();
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
+const path = require("path");
 const userRouter = require("./routes/userRouter");
 const orderRouter = require("./routes/orderRouter");
 const menuRouter = require("./routes/menuRouter");
@@ -9,6 +10,7 @@ const menuRouter = require("./routes/menuRouter");
 const app = express();
 app.use(express.json());
 app.use(cors());
+app.use(express.static(path.join(__dirname, "/public")));
 
 const PORT = process.env.PORT;
 
