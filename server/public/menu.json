@@ -10,7 +10,7 @@
       "Tomate",
       "Salsa especial"
     ],
-    "price": 7
+    "price": 6.95
   },
   {
     "type": "burger",
@@ -23,7 +23,7 @@
       "Lechuga",
       "Cebolla"
     ],
-    "price": 9
+    "price": 8.95
   },
   {
     "type": "burger",
@@ -35,7 +35,7 @@
       "Queso feta",
       "Salsa de ajo y hierbas"
     ],
-    "price": 8
+    "price": 7.95
   },
   {
     "type": "burger",
@@ -47,7 +47,7 @@
       "Queso cheddar",
       "Salsa BBQ"
     ],
-    "price": 10
+    "price": 9.95
   },
   {
     "type": "burger",
@@ -60,7 +60,7 @@
       "Bacon",
       "Salsa de ajo y queso casera"
     ],
-    "price": 12
+    "price": 11.95
   },
   {
     "type": "burger",
@@ -72,7 +72,7 @@
       "Bacon",
       "Aderezo de tomate y cebolla"
     ],
-    "price": 10
+    "price": 9.95
   },
   {
     "type": "burger",
@@ -85,7 +85,7 @@
       "Tomate",
       "Salsa de ajo y hierbas"
     ],
-    "price": 8
+    "price": 7.95
   },
   {
     "type": "burger",
@@ -98,7 +98,7 @@
       "Tomate",
       "Cebolla"
     ],
-    "price": 8
+    "price": 8.45
   },
   {
     "type": "burger",
@@ -112,14 +112,14 @@
       "Cebolla frita",
       "Mayonesa"
     ],
-    "price": 9
+    "price": 8.95
   },
   {
     "type": "burger",
     "name": "Infantil",
     "description": "Una hamburguesa pequeña hecha con carne de alta calidad y verduras frescas. ¡Ven a probar nuestro menú infantil hoy mismo en The Burger House y déjate sorprender por la sonrisa de tus pequeños!",
     "ingredients": ["Carne de res", "Lechuga", "Tomate", "Mayonesa"],
-    "price": 5
+    "price": 5.45
   },
   {
     "type": "side",
