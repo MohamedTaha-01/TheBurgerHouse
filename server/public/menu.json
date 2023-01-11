@@ -1,6 +1,19 @@
 [
   {
     "type": "burger",
+    "name": "Clásica",
+    "description": "La hamburguesa clásica es una opción segura para cualquier amante de las hamburguesas. Con una generosa porción de carne de res, queso cheddar fundido, lechuga fresca, tomate fresco y nuestra deliciosa salsa especial, ¡es una opción deliciosa para cualquier ocasión!",
+    "ingredients": [
+      "Carne de res",
+      "Queso cheddar",
+      "Lechuga",
+      "Tomate",
+      "Salsa especial"
+    ],
+    "price": 7
+  },
+  {
+    "type": "burger",
     "name": "Big Burger",
     "description": "La hamburguesa Big Burger es un monstruo de carne con una generosa porción de carne de res, queso cheddar fundido, tomate fresco, lechuga crujiente y cebolla caramelizada. ¡Todos los ingredientes se combinan a la perfección en este plato que es una explosión de sabor en cada bocado!",
     "ingredients": [
@@ -10,7 +23,7 @@
       "Lechuga",
       "Cebolla"
     ],
-    "price": 10
+    "price": 9
   },
   {
     "type": "burger",
@@ -22,7 +35,7 @@
       "Queso feta",
       "Salsa de ajo y hierbas"
     ],
-    "price": 9
+    "price": 8
   },
   {
     "type": "burger",
@@ -34,7 +47,7 @@
       "Queso cheddar",
       "Salsa BBQ"
     ],
-    "price": 11
+    "price": 10
   },
   {
     "type": "burger",
@@ -47,7 +60,7 @@
       "Tomate",
       "Salsa de ajo y hierbas"
     ],
-    "price": 9
+    "price": 8
   },
   {
     "type": "burger",
@@ -59,19 +72,6 @@
       "Lechuga",
       "Tomate",
       "Cebolla"
-    ],
-    "price": 9
-  },
-  {
-    "type": "burger",
-    "name": "Clásica",
-    "description": "La hamburguesa clásica es una opción segura para cualquier amante de las hamburguesas. Con una generosa porción de carne de res, queso cheddar fundido, lechuga fresca, tomate fresco y nuestra deliciosa salsa especial, ¡es una opción deliciosa para cualquier ocasión!",
-    "ingredients": [
-      "Carne de res",
-      "Queso cheddar",
-      "Lechuga",
-      "Tomate",
-      "Salsa especial"
     ],
     "price": 8
   },
@@ -87,7 +87,7 @@
       "Cebolla frita",
       "Mayonesa"
     ],
-    "price": 10
+    "price": 9
   },
   {
     "type": "burger",
@@ -100,7 +100,7 @@
       "Bacon",
       "Salsa de ajo y queso casera"
     ],
-    "price": 13
+    "price": 12
   },
   {
     "type": "burger",
@@ -112,14 +112,14 @@
       "Bacon",
       "Aderezo de tomate y cebolla"
     ],
-    "price": 11
+    "price": 10
   },
   {
     "type": "burger",
     "name": "Infantil",
     "description": "Una hamburguesa pequeña hecha con carne de alta calidad y verduras frescas. ¡Ven a probar nuestro menú infantil hoy mismo en The Burger House y déjate sorprender por la sonrisa de tus pequeños!",
     "ingredients": ["Carne de res", "Lechuga", "Tomate", "Mayonesa"],
-    "price": 7
+    "price": 6
   },
   {
     "type": "side",
@@ -151,14 +151,14 @@
   },
   {
     "type": "side",
-    "name": "Cubo de nuggets",
+    "name": "Cubo de nuggets (12 Uds.)",
     "description": "Nuestro cubo de nuggets es la opción perfecta para los amantes de la comida rápida. Estos nuggets crujientes y deliciosos están hechos con pollo de alta calidad y se fríen a la perfección para darles ese sabor crujiente y delicioso. ¡Ven a probar nuestro cubo de nuggets hoy mismo en The Burger House!",
     "ingredients": [],
     "price": 6.5
   },
   {
     "type": "side",
-    "name": "Cubo de alitas",
+    "name": "Cubo de alitas (8 Uds.)",
     "description": "Nuestro cubo de alitas es la opción perfecta para los amantes de la comida rápida. Estas alitas crujientes y deliciosas están hechas con pollo de alta calidad y se fríen a la perfección para darles ese sabor crujiente y delicioso. ¡Ven a probar nuestro cubo de alitas hoy mismo en The Burger House!",
     "ingredients": [],
     "price": 8.5
@@ -175,21 +175,28 @@
     "name": "Coca Cola",
     "description": "",
     "ingredients": [],
-    "price": 3
+    "price": 2.95
   },
   {
     "type": "drink",
     "name": "Coca Cola Zero",
     "description": "",
     "ingredients": [],
-    "price": 3
+    "price": 2.95
   },
   {
     "type": "drink",
     "name": "Fanta",
     "description": "",
     "ingredients": [],
-    "price": 3
+    "price": 2.95
+  },
+  {
+    "type": "drink",
+    "name": "Fanta Zero",
+    "description": "",
+    "ingredients": [],
+    "price": 2.95
   },
   {
     "type": "drink",
@@ -221,7 +228,7 @@
   },
   {
     "type": "dessert",
-    "name": "Batido:",
+    "name": "Batido",
     "description": "Una opción fresca y ligera para los días calurosos",
     "ingredients": [],
     "price": 5
@@ -235,30 +242,23 @@
   },
   {
     "type": "sauce",
-    "name": "",
-    "description": "",
+    "name": "Ketchup",
+    "description": "¡No te pierdas nuestro ketchup casero con un toque de especias para acompañar tus patatas",
     "ingredients": [],
-    "price": 2
+    "price": 1.2
   },
   {
     "type": "sauce",
     "name": "Salsa barbacoa",
     "description": "¡Lleva tus acompañantes al siguiente nivel con nuestra deliciosa salsa barbacoa casera!",
     "ingredients": [],
-    "price": 2
-  },
-  {
-    "type": "sauce",
-    "name": "Ketchup",
-    "description": "¡No te pierdas nuestro ketchup casero con un toque de especias para acompañar tus patatas",
-    "ingredients": [],
-    "price": 2
+    "price": 1.5
   },
   {
     "type": "sauce",
     "name": "Salsa de ajo y hierbas",
     "description": "",
     "ingredients": [],
-    "price": 2
+    "price": 1.5
   }
 ]
