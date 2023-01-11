@@ -26,7 +26,7 @@
   padding: 32px 48px 16px 48px;
 }
 .menu-link,
-.menu-arrow {
+.menu-arrow svg {
   color: var(--black75);
   fill: var(--black75);
   font-size: var(--fs-p);
@@ -34,7 +34,7 @@
   user-select: none;
 }
 .menu-link:hover,
-.menu-arrow:hover {
+.menu-arrow svg:hover {
   color: var(--primary);
   fill: var(--primary);
 }
@@ -51,6 +51,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  color: var(--black75);
 }
 
 @media (max-width: 720px) {
