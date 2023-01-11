@@ -5,7 +5,7 @@ export default function MenuItem({ foodItem }) {
   return (
     <article className="menu-item">
       <div className="item-image">
-        <img src={miniature} alt="" />
+        <img src={foodItem.img ? foodItem.img : miniature} alt="" />
       </div>
       <div className="item-details">
         <h6>{foodItem.name}</h6>

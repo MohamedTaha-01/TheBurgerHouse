@@ -238,7 +238,8 @@
     "name": "Tiramisú",
     "description": "Capas de bizcocho empapado en café, crema de mascarpone y cacao en polvo.",
     "ingredients": [],
-    "price": 5
+    "price": 5,
+    "img": "http://localhost:3000/images/menu/tiramisu_1.jpg"
   },
   {
     "type": "sauce",
