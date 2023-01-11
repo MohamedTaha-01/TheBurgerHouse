@@ -51,6 +51,31 @@
   },
   {
     "type": "burger",
+    "name": "El As de la Carne",
+    "description": "Hamburguesa con dos gruesas capas de carne de alta calidad, lechuga fresca, tomate fresco, tiras crujientes de bacon y nuestra deliciosa salsa de ajo y queso casera. ¡Una opción de lujo para los verdaderos amantes de la carne!",
+    "ingredients": [
+      "Carne de res",
+      "Lechuga",
+      "Tomate",
+      "Bacon",
+      "Salsa de ajo y queso casera"
+    ],
+    "price": 12
+  },
+  {
+    "type": "burger",
+    "name": "El Smash King",
+    "description": "Hamburguesa con carne estilo smash, cebolla a la plancha, tiras crujientes de bacon y nuestro especial aderezo de tomate y cebolla. ¡Un sabor espectacular que hará reinar tu paladar!",
+    "ingredients": [
+      "Carne de res al estilo smash",
+      "Cebola",
+      "Bacon",
+      "Aderezo de tomate y cebolla"
+    ],
+    "price": 10
+  },
+  {
+    "type": "burger",
     "name": "Pollo a la parrilla",
     "description": "La hamburguesa de pollo a la parrilla es una opción más ligera para aquellos que buscan una opción más saludable. Con una pechuga de pollo a la parrilla y aderezada con nuestra salsa especial de ajo y hierbas, ¡es una opción deliciosa para cualquier ocasión!",
     "ingredients": [
@@ -91,35 +116,10 @@
   },
   {
     "type": "burger",
-    "name": "El As de la Carne",
-    "description": "Hamburguesa con dos gruesas capas de carne de alta calidad, lechuga fresca, tomate fresco, tiras crujientes de bacon y nuestra deliciosa salsa de ajo y queso casera. ¡Una opción de lujo para los verdaderos amantes de la carne!",
-    "ingredients": [
-      "Carne de res",
-      "Lechuga",
-      "Tomate",
-      "Bacon",
-      "Salsa de ajo y queso casera"
-    ],
-    "price": 12
-  },
-  {
-    "type": "burger",
-    "name": "El Smash King",
-    "description": "Hamburguesa con carne estilo smash, cebolla a la plancha, tiras crujientes de bacon y nuestro especial aderezo de tomate y cebolla. ¡Un sabor espectacular que hará reinar tu paladar!",
-    "ingredients": [
-      "Carne de res al estilo smash",
-      "Cebola",
-      "Bacon",
-      "Aderezo de tomate y cebolla"
-    ],
-    "price": 10
-  },
-  {
-    "type": "burger",
     "name": "Infantil",
     "description": "Una hamburguesa pequeña hecha con carne de alta calidad y verduras frescas. ¡Ven a probar nuestro menú infantil hoy mismo en The Burger House y déjate sorprender por la sonrisa de tus pequeños!",
     "ingredients": ["Carne de res", "Lechuga", "Tomate", "Mayonesa"],
-    "price": 6
+    "price": 5
   },
   {
     "type": "side",
@@ -238,7 +238,7 @@
     "name": "Tiramisú",
     "description": "Capas de bizcocho empapado en café, crema de mascarpone y cacao en polvo.",
     "ingredients": [],
-    "price": 2
+    "price": 5
   },
   {
     "type": "sauce",
