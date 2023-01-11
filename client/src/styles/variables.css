@@ -21,6 +21,7 @@
   --black: #050404;
   --black75: #434343;
   --black50: #828181;
+  --black50opacity: hsla(0, 11%, 2%, 0.5);
   --black25: #c0c0c0;
   --black10: #e5e5e5;
   --black5: #f2f2f2;
