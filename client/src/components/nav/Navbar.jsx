@@ -30,12 +30,8 @@ export default function Navbar() {
       <nav className="navbar">
         {/* ----- NAVBAR LEFT ----- */}
         <div className="navbar-left">
-          <img
-            src="https://via.placeholder.com/150C"
-            className="left-image"
-            alt="logo"
-          />
-          <h1 className="left-text">TBG</h1>
+          <img src="/images/logos/logo.jpg" className="left-image" alt="logo" />
+          {/*<h1 className="left-text"></h1>*/}
         </div>
         {/* ----- NAVBAR CENTER ----- */}
         <div className="navbar-center">
