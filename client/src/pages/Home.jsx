@@ -12,7 +12,7 @@ export default function Home() {
           src={burger}
           type="video/mp4"
         />
-        <h1>La parrilla</h1>
+        <h1>parrilla</h1>
       </div>
       <div className="products-showcase">
         <div className="showcase-1">
