@@ -26,12 +26,12 @@ export default function Menu() {
       name: "Salsas",
     },
   ];
-  const [currentTab, setCurrentTab] = useState(0);
+  const [currentTab, setCurrentTab] = useState(0); /* ITEM TYPE NAV */
   const [foodItems, setFoodItems] = useState("");
 
   // GET MENU ITEMS FROM SERVER
   useEffect(() => {
-    fetch("http://localhost:3000/api/menu", {
+    fetch("/api/menu", {
       method: "GET",
       "Content-type": "application/json",
     })
