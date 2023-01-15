@@ -48,6 +48,7 @@
 
 .menu-item:hover {
   cursor: pointer;
+  box-shadow: none;
 }
 
 .menu-item:hover .item-image {
