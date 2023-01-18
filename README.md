@@ -27,15 +27,22 @@ Después de varios pequeños proyectos (la mayoría no publicados en github) en 
 ## Tecnologías y servicios usados
 
 - NodeJS
+  - express
+  - bcrypt
+  - mongoose
+  - jsonwebtoken
+  - dotenv
 - React
+  - react-router-dom
 - MongoDB
 - Stripe
 
 ## Funciones y características
 
-- Registro y login de usuarios mediante json web tokens y con encriptación de contraseñas.
+- Registro y login de usuarios con encriptación de contraseñas
+- Login y verificación de sesiones mediante json web tokens.
 - Creación de pedidos.
-- Validación y cálculo del precio final del pedido mediante el servidor para evitar la modificación indebida del precio por parte del cliente.
+- Doble validación de datos enviados, mediante cliente y servidor.
 - Pasarela de pago mediante el integración del servicio Stripe.
 - Seguimiento del pedido.
 
